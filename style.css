@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(203, 226, 224);
+    font-family: Poppins;
+}
+
+.container {
+    position: absolute;
+    top: 9%;
+    left: 36%;
+    height: 550px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgba(22, 21, 21, 0.4);
+    border-radius: 2%;
+}
+
+img {
+    border-radius: 50%;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 30px;
+    left: 122px;
+}
+
+h3 {
+    font-size: 30px;
+    position: absolute;
+    top: 170px;
+    left: 100px;
+}
+
+.info {
+    position: absolute;
+    top: 270px;
+    left: 80px;
+}
+
+input {
+    display: block;
+    margin-bottom: 5px;
+    width: 210px;
+    height: 30px;
+    padding: 11px;
+    border: 2px solid;
+    border-color: rgba(22, 21, 21, 0.2);
+    border-radius: 5px;
+}
+
+input::placeholder {
+    font-size: 15px;
+}
+
+input:hover {
+    border-color: rgba(22, 21, 21, 0.3);
+}
+
+.submit {
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    left: 110px;
+    top: 400px;
+    width: 170px;
+    height: 45px;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+
+.submit:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.forgot {
+    position: absolute;
+    top: 470px;
+    left: 77px;
+}
+
+.forgot a {
+    display: block;
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(206, 2, 2);
+    margin-bottom: 3px;
+}
+
+.forgot a:hover {
+    color: black;
+}
