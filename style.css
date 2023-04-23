@@ -99,6 +99,7 @@ input:focus {
 
 .forgot {
     margin-top: 15px;
+
 }
 
 .forgot a {
@@ -111,4 +112,13 @@ input:focus {
 
 .forgot a:hover {
     color: #3498db;
+    cursor: pointer;
+}
+
+.forgot-password a {
+    width: 175px;
+}
+
+.no-account a {
+    width: 125px;
 }
