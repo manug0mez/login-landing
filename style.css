@@ -30,10 +30,12 @@ img {
     top: -80px;
     left: 50%;
     transform: translate(-50%, 0);
+    transition: 0.12s;
 }
 
 img:hover {
     border-color: #2ecc71;
+    box-shadow: 0 0 10px #2ecc71;
 }
 
 h3 {
@@ -78,6 +80,10 @@ input:hover {
 input:focus {
     border-color: #2ecc71;
     width: 200px;
+}
+
+.info input:focus {
+    box-shadow: 0 0 10px #2ecc71;
 }
 
 input:focus::placeholder {
